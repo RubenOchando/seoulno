@@ -555,6 +555,13 @@
      background: #58c62c;
      color: #fff;
 }
+.skuff{
+    display: flex;
+    min-height: 0px;       
+}
+.emptyblock{
+    padding: 5px;
+}
 .emptyness {
     padding: 1rem;
     margin-bottom: 1rem;
