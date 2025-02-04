@@ -1,1 +1,1 @@
-I will try work Agile in this project
+I will try work Agile in this project, publishing to seoul.no
