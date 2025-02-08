@@ -10,8 +10,8 @@ document.getElementById('hubspot-form').addEventListener('submit', async functio
       ]
     };
 
-    const hubspotPortalId = `${process.env.HUBSPOT_PORTAL_ID}`; // Replace with your portal ID ${process.env.HUBSPOT_PORTAL_ID}
-    const hubspotFormGuid = `${process.env.HUBSPOT_FORM_GUID}`; // Replace with your form GUID ${process.env.HUBSPOT_FORM_GUID}
+    const hubspotPortalId = `${env.HUBSPOT_PORTAL_ID}`; // Replace with your portal ID ${process.env.HUBSPOT_PORTAL_ID}
+    const hubspotFormGuid = `${env.HUBSPOT_FORM_GUID}`; // Replace with your form GUID ${process.env.HUBSPOT_FORM_GUID}
 
     try {
       const response = await fetch(`https://api.hsforms.com/submissions/v3/integration/submit/${hubspotPortalId}/${hubspotFormGuid}`, {
