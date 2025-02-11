@@ -138,7 +138,31 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-.resume .base .profile .fa-rocket {
+.resume .base .profile .fa-rocket{
+  font-size: 100px;
+  text-align: center;
+  margin: auto;
+  color: #010400;
+}
+.resume .base .profile .fa-arrow-rotate-left{
+  font-size: 45px;
+  text-align: center;
+  margin: auto;
+  color: #010400;
+}
+.resume .base .profile .fa-book-atlas{
+  font-size: 100px;
+  text-align: center;
+  margin: auto;
+  color: #010400;
+}
+.resume .base .profile .fa-hotel{
+  font-size: 100px;
+  text-align: center;
+  margin: auto;
+  color: #010400;
+}
+.resume .base .profile .fa-snowflake{
   font-size: 100px;
   text-align: center;
   margin: auto;
