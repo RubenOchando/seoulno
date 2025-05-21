@@ -335,6 +335,18 @@
     float: right;
 }
 /** menu section **/
+.header-grid {
+    position: static;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: right;
+
+    background: #1E6B3A;
+    color: white;
+  }
+  
  .head-top {
      padding-bottom: 20px;
 }
@@ -363,13 +375,15 @@
     padding-right: 10px;
 }
  .bg {
-    background-color: #5ab337d6;
+    background-color: #1E6B3A;
 }
 
  .navbar-expand-md .navbar-nav .nav-link {
      padding: 15px 48px;
-     font-size: 16px;
-     color: #000;
+     font-size: 18px;
+     font-family: "Noto Sans KR", sans-serif;
+     font-weight: 700;
+     color: #F5F5F5;
      line-height: 18px;
 }
 /** banner_main **/
@@ -380,7 +394,7 @@
      background-color: #070000;
 }
  .carousel-indicators li.active {
-    background-color: #35a30a;
+    background-color: #1E6B3A;
 }
  .carousel-indicators {
      left: inherit;
@@ -409,7 +423,7 @@
      padding-bottom: 85px;
 }
  .banner_main .carousel-caption h1 {
-    color:#35a30a;
+    color:#1E6B3A;
      font-size: 124px;
      line-height: 120px;
      font-weight: 500;
@@ -417,11 +431,13 @@
 }
  .dark_brown {
     color: #000000;
-     font-weight: 500;
+    font-weight: 500;
+    font-family: "Noto Sans KR", sans-serif;
 }
 .dark_brown_xp {
-    color: #788505;
-     font-weight: 500;
+    color: #1E6B3A;
+    font-weight: 500;
+    font-family: "Noto Sans KR", sans-serif;
 }
  .banner_main .carousel-caption a {
     display: block;
@@ -434,10 +450,10 @@
      text-align: center;
      text-transform: uppercase;
      font-weight: 500;
-     border: #35a30a solid 1px;
+     border: #1E6B3A solid 1px;
 }
  .banner_main .carousel-caption a:hover {
-     background: #58c62c;
+     background: #1E6B3A;
      color: #fff;
 }
  .carousel-control-prev-icon {
@@ -549,10 +565,10 @@
      text-align: center;
      text-transform: uppercase;
      font-weight: 500;
-     border: #35a30a solid 1px;
+     border: #1E6B3A solid 1px;
 }
  .readmore:hover {
-     background: #58c62c;
+     background: #1E6B3A;
      color: #fff;
 }
 .skuff{
@@ -579,7 +595,7 @@
      font-size: 55px;
      line-height: 73px;
      font-weight: bold;
-     color: #58c62c;
+     color: #1E6B3A;
 }
 .yourlifeagile .yourlifeyoga .agile_img .yoga_img figure {
     margin: 0px;
@@ -588,7 +604,7 @@
     padding:35px 0px;
 }
 .yourlifeagile .agile_img .yourlifeyoga .yoga_img p {
-     color: #58c62c;
+     color: #1E6B3A;
      font-size: 17px;
 }
 /** end your life agile **/
@@ -615,7 +631,7 @@
      padding: 35px 0px;
 }
  .model .model_box span {
-     color: #58c62c;
+     color: #1E6B3A;
      font-size: 90px;
      font-weight: bold;
      padding-top: 85px;
@@ -623,7 +639,7 @@
      display: inline-block;
 }
 .modelletters{
-    color: #58c62c;
+    color: #1E6B3A;
     font-size: 70px;
     font-weight: bold;
     padding-top: 85px;
@@ -661,11 +677,11 @@
      color: #fff;
      font-weight: 500;
      text-transform: uppercase;
-     background: #58c62c;
+     background: #1E6B3A;
      padding: 35px 0px;
 }
  .model .model_box_cross span {
-     color: #58c62c;
+     color: #1E6B3A;
      font-size: 90px;
      font-weight: bold;
      padding-top: 60px;
@@ -697,7 +713,7 @@
      text-align: center;
      text-transform: uppercase;
      font-weight: 500;
-     border:#35a30a solid 1px;
+     border:#1E6B3A solid 1px;
 }
  .SelectPlan:hover {
      color: #fff;
@@ -713,12 +729,12 @@
      font-size: 60px;
      font-weight: normal;
      line-height: 46px;
-     color: #58c62c;
+     color: #1E6B3A;
      padding-bottom: 20px;
 }
 /** Newsletter **/
  .Newsletter {
-    background: #58c62c;
+    background: #1E6B3A;
      padding: 70px 0px;
      margin-top: 90px;
 }
@@ -766,12 +782,12 @@
      font-size: 60px;
      font-weight: normal;
      line-height: 46px;
-     color: #58c62c;
+     color: #1E6B3A;
      padding: 0px;
 }
  .agile .yoga .agile_box .yoga_box {
      text-align: center;
-     background: #58c62c;
+     background: #1E6B3A;
 }
  .agile .yoga .agile_box .yoga_box figure {
     margin:0;
@@ -804,7 +820,7 @@
      font-size: 60px;
      font-weight: normal;
      line-height: 46px;
-     color: #58c62c;
+     color: #1E6B3A;
      padding: 0;
 }
  #map {
@@ -852,7 +868,7 @@
      margin-top: 20px 
 }
  .send:hover {
-     background: #35a30a ;
+     background: #1E6B3A ;
      color: #fff;
 }
  .padddd {
@@ -901,15 +917,15 @@
      font-size: 18px;
 }
  ul.social_icon li a:hover {
-     background: #35a30a;
-     border: solid #35a30a 1px;
+     background: #1E6B3A;
+     border: solid #1E6B3A 1px;
      color: #fff;
 }
 
 /** end contact **/
 /** footer **/
  .copyright {
-     background: #317914;
+     background: #1E6B3A;
 }
  .copyright p {
      color: #fff;
