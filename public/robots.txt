@@ -1,0 +1,17 @@
+# ===================================================
+# Web: https://seoul.no (Agile Methodology & Tech)
+# ===================================================
+
+User-agent: *
+Allow: /
+
+# Bloqueo de rutas internas, assets privados o APIs
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Declaracion del Sitemap principal
+Sitemap: https://seoul.no/sitemap.xml
